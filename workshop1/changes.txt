@@ -1,0 +1,9 @@
+1 Changed owns association to register, change, remove. Both my reviewers pointed that out and I agree with them.
+Register, change and remove are part of the user stories and by including them it helps to make the domain model clearer.
+
+2 Removed the description class for boat and implemented it directly to the boat. Both my reviewers pointed that out.
+I agree there is really no need for a description class in that case. Larman states on page 242 different 
+use cases for a description class. For example an item represents a physical item in a store, or another one is
+every time an item is sold  a corresponding software instance is deleted. 
+
+3 Changed the grammar of some associations to be more consistent
