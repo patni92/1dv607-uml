@@ -6,11 +6,11 @@ import workspace2.view.Console;
 import workspace2.view.View;
 
 public class Main {
-	 public static void main(String[] args) {
-	        BoatClub boatClub = new BoatClub();
-	        View view = new Console();
-	        User user = new User(view, boatClub);
-	        
-	        user.useSystem();
+	public static void main(String[] args) {
+		BoatClub boatClub = new BoatClub();
+		View view = new Console();
+		User user = new User(view, boatClub);
+
+		user.useSystem();
 	}
 }

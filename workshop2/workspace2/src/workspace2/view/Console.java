@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Console implements View {
-	
-	
-	
 
 	public String getInput() {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -21,11 +18,11 @@ public class Console implements View {
 
 		return text;
 	}
-	
+
 	public void displayMessage(String message) {
 		System.out.println(message);
 	}
-	
+
 	public void changeInfoMenu() {
 		System.out.println("#######################");
 		System.out.println("1. Name");
@@ -33,7 +30,7 @@ public class Console implements View {
 		System.out.println("3. Boat information");
 		System.out.println("#######################");
 	}
-	
+
 	public void changeBoatMenu() {
 		System.out.println("#######################");
 		System.out.println("1. Type");
@@ -41,15 +38,14 @@ public class Console implements View {
 		System.out.println("3. Both");
 		System.out.println("#######################");
 	}
-	
-	
+
 	public void listMenu() {
 		System.out.println("#######################");
 		System.out.println("1. Compact List");
 		System.out.println("2. Verbose List");
 		System.out.println("#######################");
 	}
-	
+
 	public void listBoatType() {
 		System.out.println("#######################");
 		System.out.println("1. Sailboat");
@@ -57,7 +53,7 @@ public class Console implements View {
 		System.out.println("3. kayak/Canoe");
 		System.out.println("4. Other");
 		System.out.println("#######################");
-		
+
 	}
 
 	@Override
