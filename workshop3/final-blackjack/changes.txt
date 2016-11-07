@@ -1,0 +1,7 @@
+Most of the changes is to meet the requirments for the assignment. When I handed in the first draft it was not complete.
+
+*Implemented observer pattern
+*Removed duplicate code
+*Implemented delay
+*created class diagram
+ 
